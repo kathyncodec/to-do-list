@@ -1,0 +1,14 @@
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.AssemblyInfoInputs.cache
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.AssemblyInfo.cs
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.csproj.CoreCompileInputs.cache
+C:\Projetos\C#_treino\To-do-tarefas\bin\Debug\net9.0\To-do-tarefas.exe
+C:\Projetos\C#_treino\To-do-tarefas\bin\Debug\net9.0\To-do-tarefas.deps.json
+C:\Projetos\C#_treino\To-do-tarefas\bin\Debug\net9.0\To-do-tarefas.runtimeconfig.json
+C:\Projetos\C#_treino\To-do-tarefas\bin\Debug\net9.0\To-do-tarefas.dll
+C:\Projetos\C#_treino\To-do-tarefas\bin\Debug\net9.0\To-do-tarefas.pdb
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.dll
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\refint\To-do-tarefas.dll
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.pdb
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.genruntimeconfig.cache
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\ref\To-do-tarefas.dll
