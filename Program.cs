@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
+     static int taskIdCounter = 1;
     // Enum para as opções do usuário
     enum UserChoice
     {
@@ -15,7 +16,7 @@ class Program
     static void Main(string[] args)
     {
         // Lista de tarefas
-        List<string> todDoList = new List<string>();
+        List<(int Id, string Task)> todDoList = new List<(int, string)>();
 
         while (true)
         {
@@ -41,22 +42,22 @@ class Program
             {
                 Console.WriteLine("Enter task: ");
                 string task = Console.ReadLine();
-                todDoList.Add(task);
+                todDoList.Add((taskIdCounter++, task));
                 Console.Clear();
                 Console.WriteLine("Task added successfully!");
             }
 
             else if (choice == (int)UserChoice.DeleteTask)
             {
-                Console.Write("Enter the task to delete: ");
-                string taskToDelete = Console.ReadLine();
-                if (taskToDelete != null && todDoList.Contains(taskToDelete))
+                Console.Write("Enter the ID of the task to delete: ");
+                if (int.TryParse(Console.ReadLine(), out int taskId))
                 {
-                    bool isDeleted = todDoList.Remove(taskToDelete);
-                    Console.Clear();
+                    var taskToDelete = todDoList.FirstOrDefault(t => t.Id == taskId);
 
-                    if (isDeleted)
+                    if (taskToDelete != default)
                     {
+                        todDoList.Remove(taskToDelete);
+                        Console.Clear();
                         Console.WriteLine("Task deleted successfully!");
                     }
                     else
@@ -89,7 +90,7 @@ class Program
                 {
                     foreach (var task in todDoList)
                     {
-                        Console.WriteLine($"- {task}");
+                         Console.WriteLine($"ID: {task.Id}, Task: {task.Task}");
 
                     }
                 }

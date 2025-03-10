@@ -12,3 +12,4 @@ C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\refint\To-do-tarefas.dll
 C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.pdb
 C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.genruntimeconfig.cache
 C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\ref\To-do-tarefas.dll
+C:\Projetos\C#_treino\To-do-tarefas\obj\Debug\net9.0\To-do-tarefas.sourcelink.json
